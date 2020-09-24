@@ -3,7 +3,7 @@
 
  ### 1. The Big Idea: What is the main idea of your project? What topics will you explore and what will you generate? What is your minimum viable product? What is a stretch goal? -->
 
-    The primary purpose of our project will be to predict stock prices and make recommendations to a user. Specifically, we hope to gather input data from the user including information regarding their preferences, industries of interest, the amount available to invest, etc, and then utilize this data along with our price predictions to make recommendations to the user. Our project would primarily be geared toward people who are first-time investors or new to the investing world. Our minimal viable product would be to create a program that performs the stated function, and our stretch goal would be to create an appealing/attractive UI for the program to make it more user-friendly. 
+The primary purpose of our project will be to predict stock prices and make recommendations to a user. Specifically, we hope to gather input data from the user including information regarding their preferences, industries of interest, the amount available to invest, etc, and then utilize this data along with our price predictions to make recommendations to the user. Our project would primarily be geared toward people who are first-time investors or new to the investing world. Our minimal viable product would be to create a program that performs the stated function, and our stretch goal would be to create an appealing/attractive UI for the program to make it more user-friendly. 
 
 
 ### 2. Learning Goals: Since this is a team project, you may want to articulate both shared and individual learning goals.
