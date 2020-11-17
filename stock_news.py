@@ -44,7 +44,9 @@ app.layout = html.Div([
         dcc.Dropdown("dropdown_tickers", options=[
         {"label":"Apple", "value":"AAPL"},
         {"label":"Tesla", "value":"TSLA"},
-        {"label":"Facebook", "value":"FB"}, #change these part to include more symbols
+        {"label":"Facebook", "value":"FB"}, 
+        {"label":"Amazon", "value":"AMZN"},
+        {"label":"Microsoft", "value":"MSFT"}, #change these part to include more symbols
     ]),
         # html.Div([html.Button("Search", className="search-btn", id="search"),], className="Search")
         html.Div([
