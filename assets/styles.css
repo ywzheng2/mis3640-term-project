@@ -2,7 +2,7 @@
     margin: 0;
     padding:0;
     box-sizing: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Tahoma-bold', sans-serif;
    }
    
    body{
@@ -30,7 +30,7 @@
        justify-content: start;
        align-items: center;
        flex-direction: column;
-       background-color: #837f7f;
+       background-color:olivedrab;
    }
    
    
@@ -45,6 +45,7 @@
    }
    .header{
        height: 15vh;
+       font-size: 42pt;
        position: relative;
        display: flex;
        justify-content: space-evenly;
@@ -82,10 +83,10 @@
        height:2vw;
        overflow: hidden;
        border-radius: 5%;
-       border: none;
+       border: 2px solid olivedrab;;
        cursor: pointer;
-       background-color: #AE492A;
-       color:white;
+       background-color:white;
+       color:olivedrab;
    }
    
    .Buttons1{
@@ -104,8 +105,8 @@
     border-radius: 5%;
     border: none;
     cursor: pointer;
-    background-color: #AE492A;
-    color:white;
+    background-color:white;
+    color:olivedrab;
 }
 
 
@@ -139,28 +140,61 @@
        justify-content: space-between;
        flex-direction: row;
    }
+
+   .kpi2{
+    margin:5% 5%;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
    
    
    .kpi div {
        width:30%;
        height:10vh;
        overflow: hidden;
-       background-color: rgb(163, 146, 146);
+       background-color: rgb(236, 225, 225);
        justify-items: center;
        justify-content: center;
+       align-content: center;
        text-align: center;
    }
+
+   .kpi2 div {
+    width:30%;
+    height:10vh;
+    overflow: hidden;
+    background-color: rgb(236, 225, 225);
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;}
    
+
    .kpi div P {
        margin-top: 17px;
        color:rgba(255, 255, 255, 0.89);
        font-weight: bold;
        font-size: 30px;
    }
+
+   .kpi2 div P {
+    margin-top: 17px;
+    color:rgba(255, 255, 255, 0.89);
+    font-weight: bold;
+    font-size: 30px;
+}
    
    .kpi div H4 {
        margin-top: 10px;
    }
+
+   .kpi2 div H4 {
+    margin-top: 10px;
+}
    
    /* #floating bar */
    .modebar{
